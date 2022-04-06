@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Body */
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 40px;
+    width: 1280px;
+    background-color: #f5f7fa;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Main */
+.main-container{
+    display: flex;
+    box-shadow: 5px 9px 20px rgba(14, 238, 52, 0.15);
+    background-color:#dfdfdf;
+}
+/* Sidebar */
+.my-photo{
+    width: 270px;
+}
+.sidebar-container{
+    width: 370px;
+    background-color: #03be3b;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+/* Contacts */
+.contacts-container{
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contacts-title {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.contacts-link-type{
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 14px;
+    margin-right: 10px;
+}
+.contacts-link{
+    opacity: 0.5;
+    color: #ffffff;
+    font-weight: 400;
+}
+/* Hard and Soft skills */
+.skill-title{
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 700;
+}
+.skill-container{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 55px;
+}
+.skills-item-list{
+    
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 15px;
+    color: #ff6b08;
+}
+.skill-text{
+    color: #dfdfdf;
+}
+.skills-item-list-SA
+{
+    margin-left: 20px;
+}
+
+
+
+
+
+
+
+/* About me */
+.about-me-container{
+    text-align: justify;
+    padding-right: 200px;
+    padding-left: 90px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+.profession{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.42px;
+}
+.name{
+    margin-top: 25px;
+    font-size: 45px;
+    font-weight: 700;
+}
+.about-me-text{
+    
+    margin-top: 25px;
+    font-size: 14px;
+    font-weight: 400;
+}
+/* Project */
+.project-container{
+    margin-top: 65px;
+}
+.about-me-headers{
+    margin-top: 60px;
+    font-size: 22px;
+    font-weight: 700;
+}
+.project-list{
+    margin-top: 12px;
+    font-size: 14px;
+    font-weight: 700;
+    list-style-position: inside;
+}
+.project-list-item{
+    text-align: left;
+}
+.project-list-link{
+    color: #0dad3d;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.project-list-points{
+    margin-left: -5px;
+    margin-right: -5px;
+    color: #588d58;
+    text-align: right;
+
+}
+.project-list-types{
+    font-weight: 400;
+    color: #015e20;
+}
+/* Working expirience */
+
+.working-place{
+    color: #ff6b08;
+}
+.working-position{
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.work-date{
+    color:#28ac3e;
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+.work-expirience-list{
+    margin-top: 15px;
+    color: #157a26;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.work-expirience-list-in{
+    font-size: 12px;
+    margin-left: 20px;
+}
+/* Education */
+.education-places{
+    margin-top: 20px;
+}
+.education-place-name{
+    color: #ff6b08;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.education-place-specialty{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.education-place-date{
+    font-size: 12px;
+    font-weight: 400;
+    color:#337e44;
+    
+}
+@media only screen and (max-width: 640px) {
+  .main-info{
+    color:#34f595;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    margin-bottom: 20;
+  }
+  .name{
+    font-size: 30px;
+    
+  }
+  .about-me-text{
+      margin-top: 15px;
+  }
+  .sidebar-container-text{
+      display: inline-flex;
+      width: auto;
+  }
+  .contacts-container{
+     font-size: 12px;
+     margin-left: 10px;
+     margin-right: 0px; 
+  }
+  .contacts-title{
+      font-size: 15px;
+      margin-bottom: 5px;
+  }
+  .contacts-link-type{
+    font-size: 12px;
+    margin-right: 0px;
+  }
+  .skill-container{
+    margin-left: 10px;
+    margin-right: 0px; 
+    height: auto;
+    padding-bottom: 0px;
+  }
+  .skill-title{
+    font-size: 15px;
+    margin-bottom: 5px;
+  }
+  .skill-text{
+    font-size: 12px;
+  }
+  body{
+      padding: 0px;
+      width: 100%;
+      min-width: 320px;
+      max-width: 640px;
+  }
+  .my-photo{
+      margin-top: 15px;
+      width: 100%;
+      
+  }
+  .about-me-container{
+      padding: 0px;
+  }
+  .sidebar-container{
+      width: 100%;
+  }
+  .about-me-move-down{
+      margin-left: 10px;
+      margin-right: 10px;
+      word-wrap: break-word;
+  }
+  .project-container{
+      margin-top: 20px;
+  }
+  .about-me-headers{
+      margin-top: 10px;
+      text-align: center;
+      font-size: 18px;
+  }
+  .project-list{
+    font-size: 15px;
+  }
+  .project-list a span{
+    font-size: 15px;
+  }
+  .project-list-link{
+    font-size: 10px;
+  }
+  
+  
+  .working-position{
+      font-size: 12px;
+      margin-top: 10px;
+      margin-bottom: 5px;
+
+  }
+  .work-date{
+    font-size: 10px;
+  }
+  .work-expirience-list{
+    font-size: 10px;
+  }
+  .work-expirience-list-in{
+    font-size: 10px;
+  }
+  .education-place-name{
+      margin-top: 10px;
+      font-size: 12px;
+  }
+  .education-place-specialty{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+  }
+  .education-place-date{
+    margin-top: 10px;
+    font-size: 10px; 
+  }
+}
+/*
+@media only screen and (max-width: 480px) { 
+    .main-container{
+        display: inline;
+        
+    }
+    .body{
+        width: auto;
+    }
+    .my-photo{
+        
+    }
+    .sidebar-container{
+        width: 480px;
+    }
+}
+
+@media only screen and (max-width: 320px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: 320px;
+    }
+    .my-photo{
+        width: 320px;
+    }
+    .sidebar-container{
+        width: 320px;
+    }
+}  
+ iPhone only
+@media screen and (max-device-width: 480px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: 480px;
+    }
+    .my-photo{
+        width: 480px;
+    }
+    .sidebar-container{
+        width: 480px;
+    }
+}
+@media only screen and (max-width: 740px) { 
+    .main-container{
+        display: inline;
+    }
+    .body{
+        width: 740px;
+    }
+    .my-photo{
+        width: 740px;
+    }
+    .sidebar-container{
+        width: 740px;
+    }
+}
+@media only screen and (max-width: 570px) { 
+    .main-container{
+        display: inline-block;
+        width: auto;
+    }
+    .body{
+        width: 570px;
+    }
+    .my-photo{
+        width: 120px;
+        height: 240px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .sidebar-container{
+        width: 570px;
+    }
+}*/
+
+
+
+  
+  
